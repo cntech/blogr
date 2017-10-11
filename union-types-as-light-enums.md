@@ -1,6 +1,8 @@
 # Union Types as Light Enums
 
-If you define an `enum` in TypeScript, it becomes a lot of JavaScript code. If you need to use it like a classical `enum`, this may be necessary.
+If you define an `enum` in TypeScript, it becomes a lot of JavaScript code. If you need to use it like a classical `enum`, this may be necessary. But for most use cases, simple strings will do. They can be typed using [Union Types](https://www.typescriptlang.org/docs/handbook/advanced-types.html).
+
+## Classical Enums
 
 ```
 enum Direction {
